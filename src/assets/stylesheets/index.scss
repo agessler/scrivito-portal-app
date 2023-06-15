@@ -1005,10 +1005,10 @@ section:focus >,
   }
   span.text-meta {
     color: var(--bs-primary);
-    font-size: 10px;
+    font-size: 9px;
     line-height: 12px;
     font-weight: bold;
-    text-transform: uppercase;
+    opacity: 0.9;
   }
 }
 
@@ -1055,7 +1055,7 @@ section:focus >,
 
 .nav-link i,
 .dropdown-item i {
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .mega-menu.dropdown-menu.show {
   display: flex;
