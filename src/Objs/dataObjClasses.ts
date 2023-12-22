@@ -6,4 +6,5 @@ export const DATA_OBJ_CLASSES = [
   'Person',
   'Quote',
   'Shipment',
+  'Ticket',
 ]
