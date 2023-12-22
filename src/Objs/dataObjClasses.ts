@@ -7,4 +7,5 @@ export const DATA_OBJ_CLASSES = [
   'Quote',
   'Shipment',
   'Ticket',
+  'TicketMessage',
 ]

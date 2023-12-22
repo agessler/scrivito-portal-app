@@ -156,6 +156,7 @@ const FILTER_PRESENTATIONS = {
   Quote: { title: 'Quotes', icon: 'sheet' },
   Shipment: { title: 'Shipments', icon: 'globe' },
   Ticket: { title: 'Tickets', icon: 'chat' },
+  TicketMessage: { title: 'Ticket messages', icon: 'chat' },
   Video: { title: 'Videos', icon: 'video' },
 }
 
