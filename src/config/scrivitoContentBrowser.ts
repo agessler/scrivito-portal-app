@@ -157,6 +157,7 @@ const FILTER_PRESENTATIONS = {
   Shipment: { title: 'Shipments', icon: 'globe' },
   Ticket: { title: 'Tickets', icon: 'chat' },
   TicketMessage: { title: 'Ticket messages', icon: 'chat' },
+  User: { title: 'Users', icon: 'user' },
   Video: { title: 'Videos', icon: 'video' },
 }
 

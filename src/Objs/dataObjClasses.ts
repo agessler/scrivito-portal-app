@@ -8,4 +8,5 @@ export const DATA_OBJ_CLASSES = [
   'Shipment',
   'Ticket',
   'TicketMessage',
+  'User',
 ]
