@@ -31,8 +31,8 @@ provideEditingConfig(Ticket, {
     'referenceNumber',
   ],
   initialContent: {
-    createdById: 'specificPortalUser',
-    responsibleAgentId: 'specificAgentId',
+    createdById: '11abd64c7959c40e',
+    responsibleAgentId: '38a35ca01cd00eba',
   },
   initialize(ticket) {
     ticket.update({
