@@ -1245,6 +1245,9 @@ section:focus >,
   }
 }
 header.portal-only section:after {
+  display: none;
+}
+header.portal-only:has(.navbar-main) section:after {
   background: var(--bs-primary);
   content: '';
   display: block;
@@ -1270,7 +1273,7 @@ header.portal-only section:after {
     }
   }
   header.portal-only section:after {
-    display: none;
+    display: none !important;
   }
 }
 
