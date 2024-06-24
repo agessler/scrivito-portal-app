@@ -1228,6 +1228,7 @@ section:focus >,
     margin: 0;
     height: 53px;
     position: absolute;
+    z-index: 2;
   }
   .navbar-brand-logo {
     max-width: 155px;
@@ -1253,7 +1254,7 @@ header.portal-only:has(.navbar-main) section:after {
   display: block;
   position: absolute;
   top: 53px;
-  height: 60px;
+  height: 63px;
   z-index: -1;
   right: 0;
   left: 0;
