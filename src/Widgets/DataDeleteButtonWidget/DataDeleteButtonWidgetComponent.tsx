@@ -17,7 +17,7 @@ import { errorToast } from '../../Data/CurrentUser/errorToast'
 import { ModalSpinner } from '../../Components/ModalSpinner'
 
 provideComponent(DataDeleteButtonWidget, ({ widget }) => {
-  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(true)
   const [showConfirmation, setShowConfirmation] = useState(false)
   const dataItem = useDataItem()
 
