@@ -6,7 +6,8 @@ export const ModalSpinner = connect(function ModalSpinner() {
   useEffect(() => dialogRef.current?.showModal(), [])
 
   return (
-    <dialog className="foobar" ref={dialogRef}>
+    <dialog className="loader-dailog" ref={dialogRef}>
+      <div class="fade modal-backdrop show"></div>
       <div className="loader" />
     </dialog>
   )
