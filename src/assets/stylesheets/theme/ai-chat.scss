@@ -1,5 +1,12 @@
+.ai-chat-blue {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../images/chat-ai-blue.svg) no-repeat center;
+}
+
 .ai-chat-button {
-  background: url(../images/chat-illustration.svg) var(--bs-primary) no-repeat
+  background: url(../images/chat-ai-white.svg) var(--bs-primary) no-repeat
     center / 70%;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 
@@ -151,6 +158,7 @@
     background: #e4e8f4;
     border-radius: 8px;
     padding: 10px 15px;
+    margin: 0 0 0 10px;
     box-shadow: 0 1px 15px rgba(255, 255, 255, 0.5);
     p {
       line-height: 1.6;
@@ -188,6 +196,7 @@
     margin: -5px 0 0 10px;
   }
   .arrow-box {
+    margin: 0 10px 0 0;
     background: var(--bs-primary);
     p {
       color: #fff;
